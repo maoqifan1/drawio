@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T07:57:13.302Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="yz-hsCyn6yvRpOu-v6rH" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T02:10:13.634Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="maSJiQseBx3aHEL22lqO" version="22.0.4" type="github">
   <diagram name="第 1 页" id="K4dIMxSgs0AL1FMop_PG">
-    <mxGraphModel dx="1612" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1372" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,26 +43,32 @@
         <mxCell id="1N3cbj_YcuuvRy0N6DCH-12" value="Escape" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="630" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1N3cbj_YcuuvRy0N6DCH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="1" source="1N3cbj_YcuuvRy0N6DCH-15" target="1N3cbj_YcuuvRy0N6DCH-23" edge="1">
+        <mxCell id="zGpB3c6iRwnpBz7cjaV9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="1N3cbj_YcuuvRy0N6DCH-15" target="zGpB3c6iRwnpBz7cjaV9-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1N3cbj_YcuuvRy0N6DCH-15" value="Create property applications corresponding to the current properties" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="620" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1N3cbj_YcuuvRy0N6DCH-20" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="255" y="990" width="70" height="70" as="geometry" />
+          <mxGeometry x="250" y="1130" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1N3cbj_YcuuvRy0N6DCH-21" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="260" y="210" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1N3cbj_YcuuvRy0N6DCH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="1N3cbj_YcuuvRy0N6DCH-23" target="1N3cbj_YcuuvRy0N6DCH-20" edge="1">
+        <mxCell id="zGpB3c6iRwnpBz7cjaV9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="1N3cbj_YcuuvRy0N6DCH-23" target="1N3cbj_YcuuvRy0N6DCH-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1N3cbj_YcuuvRy0N6DCH-23" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="255" y="740" width="70" height="70" as="geometry" />
+          <mxGeometry x="250" y="900" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1N3cbj_YcuuvRy0N6DCH-27" value="It is worth noting that the Property Application here will not be automatically approved , regardless of whether score of it is greater than 90 points.." style="shape=note;size=44;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="560" width="280" height="180" as="geometry" />
+          <mxGeometry x="640" y="530" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zGpB3c6iRwnpBz7cjaV9-1" value="Operator check out the property applications and decide whether to approve the property application.If the property application is approved, the old property will be merged to the new property." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="760" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="zGpB3c6iRwnpBz7cjaV9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="zGpB3c6iRwnpBz7cjaV9-1" target="1N3cbj_YcuuvRy0N6DCH-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
